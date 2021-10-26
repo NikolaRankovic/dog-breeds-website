@@ -26,3 +26,90 @@
     background-color: skyblue;
     border-radius: 50px;
 }
+
+/* ----------------------------------------- */
+
+#naslov {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 1000;
+    font-size: 40px; 
+    color: crimson;
+    text-align: center;
+    background-color:thistle;
+    padding: 30px;
+    border: 2px solid blueviolet;
+    margin: 10px;
+    background-image: radial-gradient(thistle, #b0aac0);
+}
+
+.info {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    /*width: 70%; */
+    padding: 10px 20px;
+    background-color: #ddeedd;
+    border: 1px dashed brown;
+    margin: 20px 10px;
+}
+
+#question {
+    font-style: italic;
+}
+
+#quotes {
+    font-weight: 600;
+}
+
+#general {
+    padding-bottom: 5px;
+}
+
+div {
+    background-color: #f0efef;
+}
+
+ul {
+    list-style-type: square;
+    list-style-position: inside;
+    color: darkslategrey;
+    background-color: #c2d4dd;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 12px;
+    margin: 10px;
+    border: 1px solid black;
+    width: 25%;
+}
+
+ul li {
+    font-size: 20px;
+}
+
+.doggie {
+    display: inline-block;
+}
+
+.dog-caption {
+    font-size: 20px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.gallery {
+    background-color: #b5e7a0;
+}
+
+#prompt {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e3eaa7;
+    padding: 12px;
+    border: 1px solid goldenrod;
+}
+
+.pic {
+    border: 1px solid #e3eaa7;
+}
+
+.pic:hover {
+    border: 1px solid black;
+}
