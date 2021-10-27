@@ -45,7 +45,6 @@
 .info {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18px;
-    /*width: 70%; */
     padding: 10px 20px;
     background-color: #ddeedd;
     border: 1px dashed brown;
@@ -79,8 +78,8 @@ ul {
     font-size: 24px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 12px;
-    margin: 10px;
-    border: 1px solid black;
+    margin: 10px 10px 0px;
+    border: 1px solid #ada397;
     width: 25%;
     /*background-image: url("https://previews.123rf.com/images/muchmaniavector/muchmaniavector1803/muchmaniavector180300057/97691837-dog-breeds-head-seamless-pattern-blue-background-footprint-and-bone.jpg");*/
     background-size:cover;
@@ -98,6 +97,8 @@ ul li {
     font-size: 20px;
     border: 1px solid black;
     text-align: center;
+    background-color: #86af49;
+    box-shadow: 3px 3px 5px;
 }
 
 .gallery {
@@ -107,7 +108,7 @@ ul li {
 #prompt {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #e3eaa7;
-    padding: 12px;
+    padding: px;
     border: 1px solid goldenrod;
 }
 
@@ -127,6 +128,7 @@ header {
     padding: 22px;
     border: 1px solid #ada397;
     margin: 10px;
+    box-shadow: 3px 3px 5px;
 }
 
 header p #head-bold {
@@ -140,6 +142,8 @@ footer {
     background-color: #d6cbd3;
     padding: 24px;
     border: 1px solid #ada397;
+    box-shadow: 3px 3px 5px;
+    position:relative;
 }
 
 .nav-links {
@@ -148,4 +152,10 @@ footer {
 
 .nav-links a {
     padding: 0px 10px;
+    font-weight: 800;
+    color: black;
+}
+
+.nav-links a:hover {
+    color: purple;
 }
